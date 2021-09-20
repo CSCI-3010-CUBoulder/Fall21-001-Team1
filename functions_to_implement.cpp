@@ -110,9 +110,10 @@ std::vector<std::string> AddN(std::vector<std::string>, std::string n);
 
 
 // subtracts n to each element of the vector
-std::vector<int> SubtractN(std::vector<int> v, int n){
+std::vector<int, double y> SubtractN(std::vector<int> v, int n){
     for(int i =0; i < v.size(); i++){
         v[i] = v[i] - n;
+        y[j] = y[j] + n;
     }
 }
 
