@@ -117,7 +117,7 @@ std::vector<int> SubtractN(std::vector<int> v, int n){
 }
 
 // subtracts n to each element of the vector
-std::vector<double> SubtractN(std::vector<double>, double n);
+std::vector<double> SubtractN(std::vector<double>, int y);
 
 std::string(x){
 
