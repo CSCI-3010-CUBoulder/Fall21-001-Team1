@@ -3,6 +3,12 @@
 #include "functions_to_implement.cpp"
 #include <vector>
 
+TEST_CASE("Hello prompt", "[Hello]"){
+
+    checking ("Hello there!");
+
+}
+
 TEST_CASE ("numbers from 1 to 5", "[numbers]"){
     REQUIRE ( [0] == 1);
     REQUIRE ( [1] == 2);
