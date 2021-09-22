@@ -1,0 +1,10 @@
+CXX = g++
+CXXFLAGS	= -std=c++17 -Wall
+
+all: maze
+
+clean:
+	rm test.o
+
+test:
+	$(CXX) $(CXXFLAGS) test.cpp -o test
