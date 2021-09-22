@@ -4,11 +4,11 @@
 #include <vector>
 
 TEST_CASE ("numbers from 1 to 5", "[numbers]"){
-    REQUIRE ( [0] == 1);
-    REQUIRE ( [1] == 2);
-    REQUIRE ( [2] == 3);
-    REQUIRE ( [3] == 4);
-    REQUIRE ( [4] == 5);
+    CHECK( [0] == 1);
+    CHECK ( [1] == 2);
+    CHECK ( [2] == 3);
+    CHECK ( [3] == 4);
+    CHECK ( [4] == 5);
 }
 
 TEST_CASE ("incrementing values in int vector", "[addN]"){
@@ -21,9 +21,9 @@ SECTION("checking with +ve n"){
     strand(time(NULL));
     int random = rand()%v.size();
 
-    REQUIRE ( vector.size(v)-1 == 10);
-    REQUIRE ( vector.size[0] == 6);
-    REQUIRE ( vector.size[random] == random + n);
+    CHECK ( vector.size(v)-1 == 10);
+    CHECK ( vector.size[0] == 6);
+    CHECK ( vector.size[random] == random + n);
 
 
 }
