@@ -5,7 +5,7 @@
 
 TEST_CASE("Hello prompt", "[Hello]"){
 
-    checking ("Hello there!");
+    checking ("Hello there!");  
 
 }
 
